@@ -1,0 +1,45 @@
+#body {
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+#logo {
+  color: white;
+}
+#logo .fa-weibo {
+  font-size: 50px;
+}
+#welcome {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 8px;
+}
+body {
+  background-color: #589ed9;
+}
+#body p a {
+  text-decoration: none;
+  color: white;
+}
+.email {
+  height: 30px;
+  border-radius: 2px;
+  border: 2px white solid;
+}
+.password {
+  height: 30px;
+  border-radius: 2px;
+  border: 2px white solid;
+  margin-bottom: -5px;
+}
+#button {
+  height: 30px;
+  width: 180px;
+  color: white;
+  background-color: #0b6ab4;
+  border-radius: 5px;
+  margin-top: -5px;
+  font-weight: bolder;
+  border: #0b6ab4 2px solid;
+}

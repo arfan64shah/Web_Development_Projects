@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arfan Shah</title>
+    <style>
+      .section {
+        background-color: cornflowerblue;
+        text-align: center;
+      }
+      .name {
+        margin: auto;
+        padding-top: 5px;
+      }
+      .description {
+        margin: auto;
+      }
+      .form {
+        text-align: center;
+        margin: auto;
+        padding-top: 10px;
+        background-color: aquamarine;
+      }
+      .button {
+        margin-bottom: 5px;
+      }
+      #message {
+        border: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section">
+      <h1 class="name">Arfan Shah</h1>
+      <p class="description">
+        My name is Arfan Shah and I am a senior Computer Science student. I like
+        reading books. I also like to go for night walks and hiking
+      </p>
+    </div>
+    <div class="form">
+      <form>
+        <label for="name">Full Name: </label><br />
+        <input
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Name"
+        /><br /><br />
+        <label for="email">Passord: </label><br />
+        <input
+          id="email"
+          type="password"
+          name="password"
+          placeholder="Password"
+        /><br /><br />
+        <label for="message">Message: </label> <br />
+        <!-- <input id="message" type="text" name="message" /><br /><br /> -->
+        <textarea
+          id="message"
+          name="message"
+          cols="20"
+          rows="10"
+          placeholder="Message..."
+        ></textarea
+        ><br /><br />
+        <button
+          class="button"
+          type="button"
+          style="background-color: black; color: white"
+          onclick="alertfunc()"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+    <script>
+      function alertfunc() {
+        // var name = $("#name").val();
+        // var email = $("#email").val();
+        // var message = $("#message").val();
+
+        // if (name == "" || email == "" || message == "") {
+        //   alert("Value missing!");
+        // } else {
+        //   alert("Form Submitted");
+        // }
+        alert("Form Submitted Sucessfully!");
+      }
+    </script>
+  </body>
+</html>
